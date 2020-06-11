@@ -8,6 +8,8 @@
   - apt autoremove
   - apt autoclean
   - clean the /temp/ folder
+- Update vscode
+  - Download the newest vscode .deb file in /temp/ folder, update it and open afterall
 
 ## How to install
 
