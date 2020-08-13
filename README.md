@@ -12,6 +12,24 @@
   - Download the newest vscode .deb file in /temp/ folder, update it and open afterall
 
 ## How to install
+# All
+
+## **Unique step**
+Download the `install.sh` script
+```
+  wget https://raw.githubusercontent.com/hfabio/updater-stuff/master/install.sh
+```
+Give permission
+```
+  sudo chmod +x install.sh
+```
+run as SU (or you can use as user but remembering to insert your SUDO password when asked for)
+
+```
+  sudo /install.sh
+```
+
+# Separated
 
 ## **First step**
 
@@ -52,3 +70,21 @@ create a folder for your scripts (you can put directly in your system path but I
 Just open the terminal and type `update-system` or `update-vscode` or `update-skype` or `update-insomnia`, simple like that.
 
 *note: If you're using SUDO or root when you update your vscode it will not open after update because the vscode don't allow to use vscode as root*
+
+## How to uninstall
+
+# Download the uninstaller
+
+Download the `uninstall.sh` script
+```
+  wget https://raw.githubusercontent.com/hfabio/updater-stuff/master/uninstall.sh
+```
+Give permission
+```
+  sudo chmod +x uninstall.sh
+```
+run as SU (or you can use as user but remembering to insert your SUDO password when asked for)
+
+```
+  sudo /uninstall.sh
+```
