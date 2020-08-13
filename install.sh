@@ -7,7 +7,7 @@ update-skype
 update-insomnia
 )
 
-sudo mkdir $updater_path
+mkdir $updater_path
 
 for updater in ${updatenames[*]} ; do
   wget https://raw.githubusercontent.com/hfabio/updater-stuff/master/$updater.sh -O $updater_path/$updater.sh
