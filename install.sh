@@ -1,5 +1,5 @@
 #!/bin/bash
-path=~/.update-scripts
+updater_path=~/.update-scripts
 updatenames=(
 update-system
 update-vscode
@@ -7,14 +7,14 @@ update-skype
 update-insomnia
 )
 
-sudo mkdir $path
+sudo mkdir $updater_path
 
 for updater in ${updatenames[*]} ; do
-  wget https://raw.githubusercontent.com/hfabio/updater-stuff/master/$updater.sh -O $path/$updater.sh
+  wget https://raw.githubusercontent.com/hfabio/updater-stuff/master/$updater.sh -O $updater_path/$updater.sh
 done
 
-sudo chmod +x $path/*.sh
+sudo chmod +x $updater_path/*.sh
 
 for updater in ${updatenames[*]} ; do
-  sudo ln -s $path/$updater.sh /usr/bin/$updater
+  sudo ln -s $updater_path/$updater.sh /usr/bin/$updater
 done
