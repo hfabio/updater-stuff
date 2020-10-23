@@ -5,6 +5,8 @@ update-system
 update-vscode
 update-skype
 update-insomnia
+update-discord
+update-edge
 )
 
 mkdir $updater_path

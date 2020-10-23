@@ -48,6 +48,10 @@ create a folder for your scripts (you can put directly in your system path but I
   wget https://raw.githubusercontent.com/hfabio/updater-stuff/master/update-skype.sh -O ~/update-scripts/update-skype.sh
 
   wget https://raw.githubusercontent.com/hfabio/updater-stuff/master/update-insomnia.sh -O ~/update-scripts/update-insomnia.sh
+
+  wget https://raw.githubusercontent.com/hfabio/updater-stuff/master/update-discord.sh -O ~/update-scripts/update-discord.sh
+
+  wget https://raw.githubusercontent.com/hfabio/updater-stuff/master/update-edge.sh -O ~/update-scripts/update-edge.sh
 ```
 *note: if you created a different path or using directly for your system path pay attention to the output*
 
@@ -63,11 +67,13 @@ create a folder for your scripts (you can put directly in your system path but I
   sudo ln -s ~/update-scripts/update-vscode.sh /usr/bin/update-vscode
   sudo ln -s ~/update-scripts/update-skype.sh /usr/bin/update-skype
   sudo ln -s ~/update-scripts/update-insomnia.sh /usr/bin/update-insomnia
+  sudo ln -s ~/update-scripts/update-discord.sh /usr/bin/update-discord
+  sudo ln -s ~/update-scripts/update-edge.sh /usr/bin/update-edge
 ```
 
 ## How to use
 
-Just open the terminal and type `update-system` or `update-vscode` or `update-skype` or `update-insomnia`, simple like that.
+Just open the terminal and type `update-system` or `update-vscode` or `update-skype` or `update-insomnia` or `update-discord` or `update-edge`, simple like that.
 
 *note: If you're using SUDO or root when you update your vscode it will not open after update because the vscode don't allow to use vscode as root*
 
