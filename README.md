@@ -1,5 +1,14 @@
 # Updater stuff
 
+## What is updated?
+currently it updates this softwares:
+- Your entire system (see the list below)
+- Vscode
+- Skype
+- Insomnia
+- Discord
+- Microsoft Edge (still at development version)
+
 - System update
   - apt update and apt upgrade
   - dist-upgrade
@@ -8,8 +17,8 @@
   - apt autoremove
   - apt autoclean
   - clean the /temp/ folder
-- Update vscode
-  - Download the newest vscode .deb file in /temp/ folder, update it and open afterall
+- Update programs
+  - Download the newest .deb file in /temp/ folder, update it and open afterall
 
 ## How to install
 # All
