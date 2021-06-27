@@ -7,6 +7,7 @@ update-skype
 update-insomnia
 update-discord
 update-edge
+update-dbeaver
 )
 
 mkdir $updater_path
