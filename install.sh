@@ -1,5 +1,5 @@
 #!/bin/bash
-updater_path=/home/$(logname)/.update-scripts
+updater_path=/home/$USER/.update-scripts
 updatenames=(
 update-system
 update-vscode
